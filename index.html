@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+ </head>
+ <body>
+     <script>
+         const numberOfCars = prompt("No of cars in a garage?", " Total Number of Cars")
+         const averageCarWorth = prompt("Net car worth on an average day?", "Avg Car Worth")
+
+         const numberOfMotorBikes = prompt("No of motorbikes in the garage?", " Total Number of Motorbikes")
+         const averageMotorBikesWorth = prompt("Net motorbike worth on an average day?", "Avg Motorbike Worth")
+
+         const numberOfBikes = prompt("No of bikes in the garage?", " Total Number of Bikes")
+         const averageBikesWorth = prompt("Net motorbike worth on an average day?", "Avg Bike Worth")
+
+         const numberOfTrucks = prompt("No of trucks in the garage?", "Total number of Trucks")
+         const averageTrucksWorth = prompt("Net trucks worth on an average day?", "Avg trucks worth")
+
+         const carsValue = numberOfCars * averageCarWorth
+         const motorBikesValue = numberOfMotorBikes * averageMotorBikesWorth
+         const bikesValue = numberOfBikes * averageBikesWorth
+         const truckValue = numberOfTrucks * averageTrucksWorth
+
+         const totalGarageValue = carsValue + motorBikesValue + bikesValue + truckValue
+
+         alert("The Garage worth approximately: " + totalGarageValue + "$")
+       </script>
+    </body>
+</html>

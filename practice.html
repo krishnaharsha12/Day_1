@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Shopping_list</title>
+ </head>
+  <body>
+    <script>
+      const quantityOfPotatos = prompt("Quantity of potatos in a Trolley?", " Total quantity of potatos")
+      const averagePriceOfPotatos = prompt("Cost of potatos in kilograms?", "Avg potatos Cost")
+
+      const quantityOfTomatos= prompt("Quantity of tomatos in a Trolley?", " Total Quantity of tomatos")
+      const averagePriceOfTomatos = prompt("Cost of tomatos in kilograms?", "Avg tomatos cost")
+
+      const quantityOfMilkCans = prompt("Quantity of milkCans in a Trolley?", " Total Quantity of milkCans")
+      const averagePriceOfMilkCans = prompt("Cost of milkCans in liters?", "Avg milkCans cost")
+
+      const quantityOfOilCans = prompt("Quantity of oilCans in a Trolley?", "Total Quantity of oilCans")
+      const averagePriceOfOilCans = prompt("Cost of oilCans in Liters?", "Avg oilCans cost")
+
+      const quantityOfDrinks = prompt("Quantity of drinks in a Trolley?", "Total Quantity of drinks")
+      const averagePriceOfDrinks = prompt("Cost of drinks in Liters?", "Avg drinks cost")
+
+
+      const quantityOfRiceBags= prompt("Quantity of riceBags in a trolley?", " Total Quantity of riceBags")
+      const AveragePriceOfRiceBags = prompt("Cost of riceBags in kilograms?", "Avg riceBags cost")
+
+      const quantityOfFruits = prompt("Quantity of fruits in a Trolley?", " Total Quantity of fruits")
+      const averagePriceOfFruits= prompt("Cost of fruits by Pieces?", "Avg fruits cost")
+
+      const quantityOfSpices = prompt("Quantity of spices in a basket?", "Total Quantity of spices")
+      const averagePriceOfSpices = prompt("Cost of spices in kilograms?", "Avg spices worth")
+
+      const potatosValue = quantityOfPotatos * averagePriceOfPotatos
+      const tomatosValue= quantityOfTomatos * averagePriceOfTomatos
+      const milkCansValue = quantityOfMilkCans * averagePriceOfMilkCans
+      const oilCansValue = quantityOfOilCans * averagePriceOfOilCans
+      const drinksValue = quantityOfDrinks * averagePriceOfDrinks
+      const riceBagsValue= quantityOfRiceBags * AveragePriceOfRiceBags
+      const fruitsValue = quantityOfFruits * averagePriceOfFruits
+      const spicesValue = quantityOfSpices * averagePriceOfSpices
+
+      const totalShoppingValue = potatosValue + tomatosValue + milkCansValue + oilCansValue + drinksValue
+      + riceBagsValue + fruitsValue + spicesValue 
+
+
+      alert("The Shopping worth approximately: " + totalShoppingValue + "$")
+    </script>
+  </body>
+</html>
